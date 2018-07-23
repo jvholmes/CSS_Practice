@@ -1,0 +1,51 @@
+/*23JULY2018 VERSION OF MY CODE.*/
+body {
+	background-color: black;
+	color: black;
+	text-align: center;
+}
+
+img {
+	height: 160px;
+}
+.wrpper {
+
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.circle {
+	width: 100px;
+	padding: 50px 0;
+	line-height: 0;
+	margin: 60px auto;
+	background: red;
+	color: black;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 1s
+
+}
+
+.circle:hover {
+ 	background: black;
+ 	color: red;
+ 	transform: rotate(360deg);
+}
+
+/*.circle {
+	width: 300px;
+	padding: 150px 0;
+	line-height: 0;
+	margin: 60px auto;
+	background: red;
+	color: black;
+	border-radius: 150px;
+	cursor: pointer;
+	transition: 1s
+}*/
+
+/*img {
+	 transform: rotateX(40deg) rotateY(30deg) scale(2);*/
+}
